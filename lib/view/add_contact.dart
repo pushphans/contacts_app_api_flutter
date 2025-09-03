@@ -24,7 +24,9 @@ class _AddContactState extends State<AddContact> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text("Add new contact", style: TextStyle(fontSize: 25)),
+      ),
 
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
